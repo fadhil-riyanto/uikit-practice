@@ -1,0 +1,21 @@
+::root {
+    --blue-verditer: #007d9c
+}
+
+.logo {
+    height: 2rem;
+    width: 5.125rem;
+}
+
+.btn_uikit_borderless {
+    border: none;
+}
+
+.uikit-text-white {
+    color: white;
+}
+
+.uikit-hover-black:hover {
+    background-color: black;
+    color: var(--blue-verditer);
+}

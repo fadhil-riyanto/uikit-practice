@@ -4,13 +4,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="/node_modules/uikit/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="1.css">
 
     <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/js/uikit-icons.min.js"></script>
+    <script src="/node_modules/uikit/dist/js/uikit.min.js"></script>
+    <script src="/node_modules/uikit/dist/js/uikit-icons.min.js"></script>
 </head>
 
 <body>
-    
+    <nav class="uk-navbar-container" style="background-color: #007d9c;" uk-navbar>
+        <div class="uk-navbar-left">
+            <img src="https://go.dev/images/go-logo-white.svg" alt="" class="uk-margin-small-top uk-margin-small-bottom logo">
+        </div>
+        <div class="uk-navbar-right">
+            <div class="uk-inline">
+                <button class="uk-button uk-button-default btn_uikit_borderless uikit-text-white">Why go? <span uk-icon="icon: triangle-down"></span></button>
+                <div uk-dropdown>
+                    <ul class="uk-list">
+                        <li>Fast</li>
+                        <li>securty</li>
+                        <li>use case</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="uk-inline">
+                <button class="uk-button uk-button-default btn_uikit_borderless uikit-text-white">Learn</button>
+            </div>
+            <div class="uk-inline">
+                <button class="uk-button uk-button-default btn_uikit_borderless uikit-text-white">Docs <span uk-icon="icon: triangle-down"></span></button>
+                <div uk-dropdown>
+                    <ul class="uk-list">
+                        <li>
+                            <h2 class="uk-text-default uk-text-bold">Effective go</h2>
+                            <p class="uk-text-default">Tips for writing clear, performant, and idiomatic Go code</p>
+                        </li>
+                        <li>
+                            <h2 class="uk-text-default uk-text-bold">Go User Manual </h2>
+                            <p class="uk-text-default">A complete introduction to building software with Go</p>
+                        </li>
+                        <li>
+                            <h2 class="uk-text-default uk-text-bold">Standard library </h2>
+                            <p class="uk-text-default">Reference documentation for Go's standard library</p>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="uk-inline">
+                <button class="uk-button uk-button-default btn_uikit_borderless uikit-text-white">Packages</button>
+            </div>
+            <div class="uk-inline">
+                <button class="uk-button uk-button-default btn_uikit_borderless uikit-text-white">Community <span uk-icon="icon: triangle-down"></span></button>
+                <div uk-dropdown>
+                    <div class="uk-flex">
+                        <div class="uk-flex uk-flex-column">
+                            <div>
+                                a
+                            </div>
+                            <div>
+                                a
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 </body>
