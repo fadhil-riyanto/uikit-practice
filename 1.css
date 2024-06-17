@@ -19,3 +19,39 @@
     background-color: black;
     color: var(--blue-verditer);
 }
+
+.golang_web_color_main {
+    background-color: #08677e;
+}
+
+.golang_gopher {
+	/* bottom: 0; */
+	height: 15rem;
+	max-width: 8rem;
+	object-fit: cover;
+	object-position: 100% 0;
+	right: 0;
+	width: 100%;
+}
+
+
+.btn-yellow {
+    background-color: yellow;
+}
+
+.company_logo {
+    width: 100px;
+    height: 50px;
+}
+
+.black2nd {
+    background-color: #262528;
+}
+
+.uk-background-secondary-2nd {
+    background-color: #2d2d2d;
+}
+
+.uk-bordered {
+    border: 1px solid #2d2d2d;
+}
